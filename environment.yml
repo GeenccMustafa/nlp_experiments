@@ -1,0 +1,13 @@
+name: bm25_reranker
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - rank_bm25
+      - sentence-transformers
+      - pandas
+      - matplotlib
+      - jupyter
