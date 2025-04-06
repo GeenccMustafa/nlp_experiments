@@ -1,5 +1,7 @@
 # 🇩🇪 Interactive German Sentence Translator + Example Generator + TTS
 
+🎥 **[Watch Demo on YouTube](https://www.youtube.com/watch?v=XqK_CJWDzUE)**
+
 A Streamlit-based web application that enables users to:
 
 1. 🔍 Enter a German sentence and see it tokenized into clickable words.
