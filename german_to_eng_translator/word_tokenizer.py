@@ -33,9 +33,10 @@ def split_sentence_with_delimiters(sentence: str) -> List[str]:
     parts = re.split(r'(\b\w+\b)', sentence)
     return [part for part in parts if part]
 
-
+'''
 if __name__ == '__main__':
     test_sentence = "Das Wetter ist heute schön."
     print("Split with delimiters:", split_sentence_with_delimiters(test_sentence))
     test_sentence_punct = "Hallo! Wie geht's? Das ist gut."
     print("Split with delimiters:", split_sentence_with_delimiters(test_sentence_punct))
+'''
